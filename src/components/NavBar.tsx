@@ -1,5 +1,3 @@
-
-
 export default function NavBar() {
 
     const imagenNav ="/images/logo.png"
@@ -11,7 +9,7 @@ export default function NavBar() {
             <img src={imagenNav} className="h-20 w-auto" alt="Logo DIMECARS" />
             </a>
 
-      <ul className="hidden lg:flex lg:gap-10">
+      <ul className="hidden lg:flex lg:gap-10 text-2xl">
         <a href="#" className="text-white hover:underline">Inicio</a>
         <a href="#" className="text-white hover:underline">Vehículos</a>
         <a href="#" className="text-white hover:underline">Contacto</a>

@@ -1,6 +1,6 @@
+import Footer from "./components/footer"
 import NavBar from "./components/NavBar"
 import VehiculoCard from "./components/VehiculoCard"
-
 
 
 function App() {
@@ -14,11 +14,10 @@ function App() {
       <div className="container mx-auto">
       <div className="xl:grid xl:grid-cols-4 lg:grid-cols-3 md:grid md:grid-cols-2 gap-5">
         <VehiculoCard/>
-        <VehiculoCard/>
-        <VehiculoCard/>
-        <VehiculoCard/>
       </div>
       </div>
+
+      <Footer/>
     </>
   )
 }
