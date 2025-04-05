@@ -1,5 +1,4 @@
 import axios from "axios";
-import { Vehiculo } from "../types";
 
 /*Metodo get que se esta inyectando en el componente VehiculoCard*/
 
