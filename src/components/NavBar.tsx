@@ -1,15 +1,16 @@
+
 export default function NavBar() {
 
-    const imagenNav ="/images/logo.png"
+    const imagenNav ="/images/DimeCarsLogo.png"
 
     return (
-        <nav className="bg-gray-700 py-4">
+        <nav className="bg-black py-4">
             <div className="container max-w-6xl mx-auto flex items-center justify-between">
             <a href="">
-            <img src={imagenNav} className="h-20 w-auto" alt="Logo DIMECARS" />
+            <img src={imagenNav} className="h-40 w-50" alt="Logo DIMECARS" />
             </a>
 
-      <ul className="hidden lg:flex lg:gap-10 text-2xl">
+      <ul className="hidden lg:flex lg:gap-10">
         <a href="#" className="text-white hover:underline">Inicio</a>
         <a href="#" className="text-white hover:underline">Vehículos</a>
         <a href="#" className="text-white hover:underline">Contacto</a>

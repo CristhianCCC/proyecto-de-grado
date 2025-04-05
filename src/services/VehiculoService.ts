@@ -5,9 +5,12 @@ import { Vehiculo } from "../types";
 
 const VEHICULO_REST_API_URL = "http://localhost:8080/vehiculo";
 
-    export default class VehiculoService {
+    export default class VehiculoService{
 
         static getVehiculos() {
             return axios.get(VEHICULO_REST_API_URL);
+        }
+        static getVehiculoById(id: number){
+            return axios.get(VEHICULO_REST_API_URL + "/" + id);
         }
     }
